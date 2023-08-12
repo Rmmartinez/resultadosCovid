@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas COVID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tarjetaCovid">
+        <div>
+            <h1>Estadísticas del COVID 19 en EEUU</h1>
+
+            <b>Fecha: </b><input id="inputFecha" type ="date" max="2021-03-07" min="2020-01-13"/><br/>
+            <br/>
+            <button onclick="cargarEstadisticas();">Cargar Estadísticas</button>
+        </div>
+        
+        <div>
+            <h2>Resultados: </h2>
+            <ul>
+                <li>Muertes: <span id="txtMuertos"></span></li>
+                <li>Hospitalizados: <span id="txtHospitalizados"></span></li>
+                <li>Positivos: <span id="txtPositivos"></span></li>
+                <li>Negativos: <span id="txtNegativos"></span></li>
+                <li>Pendientes: <span id="txtPendientes"></span></li>
+                <li>Pruebas Totales: <span id="txtPruebasTotales"></span></li>
+            </ul>
+        </div>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>

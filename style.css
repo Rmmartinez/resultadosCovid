@@ -1,0 +1,37 @@
+#tarjetaCovid{
+border: 2px dashed #DDD;
+padding:20px;
+border-radius: 25px;
+background-color: rgb(100, 154, 198);
+color: rgb(2, 40, 71);
+font-family: cursive;
+width: 600px;
+margin: auto;
+}
+
+body{
+    background-color: rgb(2, 40, 71);
+}
+
+button{
+    background-color: white;
+    color: rgb(2, 40, 71);
+    border: 2px solid rgb(2, 40, 71);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+input{
+    background-color: white;
+    color: rgb(2, 40, 71);
+    border: 2px solid rgb(2, 40, 71);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+}
